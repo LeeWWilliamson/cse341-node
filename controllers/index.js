@@ -1,5 +1,17 @@
-const getName = (req, res) => {
-  res.send('Sarah Birch');
+const getElizabeth = (req, res) => {
+  res.send('Elizabeth Williamson');
 };
 
-module.exports = { getName };
+const getFaye = (req, res) => {
+  res.send('Faye Williamson');
+};
+
+const getRoby = (req, res) => {
+  res.send('Roby Beazer');
+};
+
+module.exports = {
+  getElizabeth,
+  getFaye,
+  getRoby
+};
